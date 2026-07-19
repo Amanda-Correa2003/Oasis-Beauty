@@ -1,32 +1,41 @@
-# React + TypeScript + Vite
+Oásis Beauty
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Este é o projeto Oásis Beauty, uma plataforma de e-commerce e agendamento desenvolvida para facilitar a gestão de serviços e produtos do salão de beleza.
 
-Currently, two official plugins are available:
+Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* React: Biblioteca principal para a interface do usuário.
+* Vite: Ferramenta de build extremamente rápida.
+* TypeScript: Adiciona tipagem estática ao JavaScript para maior segurança.
+* Tailwind CSS: Framework para estilização moderna e responsiva.
+* React Router Dom: Gerenciamento de rotas e navegação entre páginas.
+* Lucide React: Biblioteca de ícones intuitiva.
 
-## React Compiler
+Como rodar o projeto localmente?
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Para executar este projeto em sua máquina, siga os passos abaixo:
+1. Pré-requisitos: Certifique-se de ter o Node.js instalado em seu computador.
+2. Clone o repositório:
+git clone [https://github.com/Amanda-Correa2003/Oasis-Beauty.git](https://github.com/Amanda-Correa2003/Oasis-Beauty.git)
+3. Entre na pasta do projeto:
+cd Oasis-Beauty
+4. Instale as dependências:
+npm install
+5. Inicie o servidor de desenvolvimento:
+npm run dev
+6. Acesse no navegador: O terminal exibirá um link (geralmente http://localhost:5173). Segure Ctrl e clique no link para visualizar o projeto.
 
-## Expanding the Oxlint configuration
+Estrutura do Projeto
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+* src/: Contém todo o código-fonte da aplicação.
+* components/: Componentes reutilizáveis (Navbar, cards, etc).
+* context/: Gerenciamento de estado global (ex: Carrinho de compras).
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+Imagens
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+<img width="2560" height="2574" alt="localhost_5173_(Nest Hub Max) (3)" src="https://github.com/user-attachments/assets/a96e1386-369c-43e9-b9c6-77ab0ef15f19" />
+
+<img width="4266" height="2666" alt="localhost_5173_(Nest Hub Max) (4)" src="https://github.com/user-attachments/assets/df61cffe-5470-4d2c-8af1-5d3060e6d543" />
+
+* pages/: Páginas principais do site.
+* public/: Arquivos estáticos (imagens, ícones).
