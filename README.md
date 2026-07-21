@@ -28,14 +28,18 @@ npm run dev
 Estrutura do Projeto
 
 * src/: Contém todo o código-fonte da aplicação.
-* components/: Componentes reutilizáveis (Navbar, cards, etc).
-* context/: Gerenciamento de estado global (ex: Carrinho de compras).
 
 Imagens
 
-<img width="2560" height="2574" alt="localhost_5173_(Nest Hub Max) (3)" src="https://github.com/user-attachments/assets/a96e1386-369c-43e9-b9c6-77ab0ef15f19" />
+<img width="2048" height="2294" alt="localhost_5173_(Nest Hub) (3)" src="https://github.com/user-attachments/assets/d73aef1d-cda4-49d0-9630-dfa9caaad48f" />
 
-<img width="4266" height="2666" alt="localhost_5173_(Nest Hub Max) (4)" src="https://github.com/user-attachments/assets/df61cffe-5470-4d2c-8af1-5d3060e6d543" />
+<img width="2730" height="3570" alt="localhost_5173_(Nest Hub) (4)" src="https://github.com/user-attachments/assets/591aa5ea-9c4d-4da1-aa38-e5927e30e243" />
 
-* pages/: Páginas principais do site.
-* public/: Arquivos estáticos (imagens, ícones).
+<img width="2048" height="1398" alt="localhost_5173_agendamento(Nest Hub)" src="https://github.com/user-attachments/assets/efb2112f-1ffb-4a8c-93e9-701a78fb8c01" />
+
+<img width="2048" height="1326" alt="localhost_5173_carrinho(Nest Hub)" src="https://github.com/user-attachments/assets/2208b8c6-15c7-48e1-b2bc-873cd7962748" />
+
+
+
+* components/: Componentes reutilizáveis (Navbar, cards, etc).
+* context/: Gerenciamento de estado global (ex: Carrinho de compras).
