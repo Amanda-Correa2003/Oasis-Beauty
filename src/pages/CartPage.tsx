@@ -5,7 +5,7 @@ export const CartPage = () => {
 
   return (
     <div className="container mx-auto py-12 px-4">
-      <h1 className="text-3xl font-heading mb-8">Seu Carrinho</h1>
+      <h1 className="text-3xl font-heading mb-8 text-pink-700">Seu Carrinho</h1>
       {cart.length === 0 ? <p>Seu carrinho está vazio.</p> : (
         <div className="space-y-4">
           {cart.map(item => (
@@ -20,7 +20,7 @@ export const CartPage = () => {
                   className="w-16 border"
                   onChange={(e) => updateQuantity(item.id, parseInt(e.target.value))}
                 />
-                <button onClick={() => removeFromCart(item.id)} className="text-red-500">Remover</button>
+                <button onClick={() => removeFromCart(item.id)} className="text-red-500">Excluir</button>
               </div>
             </div>
           ))}

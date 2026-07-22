@@ -1,6 +1,6 @@
 export const Footer = () => {
   return (
-    <footer className="bg-oasis-black text-oasis-white py-12 border-t border-oasis-gold">
+    <footer className="bg-oasis-black text-oasis-white py-12 border-t border-oasis-gold ">
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
         <div>
           <h3 className="text-xl font-heading text-oasis-gold mb-4">Oásis Beauty</h3>
