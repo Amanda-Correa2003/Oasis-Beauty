@@ -46,7 +46,7 @@ Imagens
 <img width="2048" height="2294" alt="localhost_5173_(Nest Hub) (3)" src="https://github.com/user-attachments/assets/d73aef1d-cda4-49d0-9630-dfa9caaad48f" />
 
 
-<img width="2560" height="2574" alt="localhost_5173_(Nest Hub Max) (5)" src="https://github.com/user-attachments/assets/4044e16f-388c-4a22-8499-1339a99113c0" />
+<img width="2048" height="2294" alt="localhost_5173_(Nest Hub) (7)" src="https://github.com/user-attachments/assets/ef09867c-5457-47eb-93ef-958df226a3d1" />
 
 
 <img width="2730" height="3570" alt="localhost_5173_(Nest Hub) (4)" src="https://github.com/user-attachments/assets/591aa5ea-9c4d-4da1-aa38-e5927e30e243" />
