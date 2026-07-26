@@ -2,6 +2,15 @@ Oásis Beauty
 
 Este é o projeto Oásis Beauty, uma plataforma de e-commerce e agendamento desenvolvida para facilitar a gestão de serviços e produtos do salão de beleza.
 
+Principais funcionalidades
+
+1- Catálogo de serviços interativo - listagem de tratamentos (visagismo, hidratação...)
+2- Sistema de carrinho - gestão de itens selecionados pelo usuário em tempo real.
+3- Fluxo de agendamento - Interface dedicada a marcação de horários integrada com o whatsapp.
+4- Chatbot de IA integrado - um widget vonversacional que tira duvidas e da informações para o cliente.
+5- Desdign System Personalizado - Identidade visual sofisticada com paleta de cores rosa.
+
+
 Tecnologias Utilizadas
 
 * React: Biblioteca principal para a interface do usuário.
@@ -28,10 +37,17 @@ npm run dev
 Estrutura do Projeto
 
 * src/: Contém todo o código-fonte da aplicação.
+* components/: Componentes reutilizáveis (Navbar, cards, etc).
+* context/: Gerenciamento de estado global (ex: Carrinho de compras).
 
+  
 Imagens
 
 <img width="2048" height="2294" alt="localhost_5173_(Nest Hub) (3)" src="https://github.com/user-attachments/assets/d73aef1d-cda4-49d0-9630-dfa9caaad48f" />
+
+
+<img width="2560" height="2574" alt="localhost_5173_(Nest Hub Max) (5)" src="https://github.com/user-attachments/assets/4044e16f-388c-4a22-8499-1339a99113c0" />
+
 
 <img width="2730" height="3570" alt="localhost_5173_(Nest Hub) (4)" src="https://github.com/user-attachments/assets/591aa5ea-9c4d-4da1-aa38-e5927e30e243" />
 
@@ -41,5 +57,4 @@ Imagens
 
 
 
-* components/: Componentes reutilizáveis (Navbar, cards, etc).
-* context/: Gerenciamento de estado global (ex: Carrinho de compras).
+
