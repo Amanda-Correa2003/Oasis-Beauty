@@ -1,6 +1,7 @@
 import type{ ReactNode } from 'react';
 import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
+import Chat from '../chatbot/Chat.tsx';
 
 interface MainLayoutProps {
   children: ReactNode;
@@ -14,6 +15,7 @@ export const MainLayout = ({ children }: MainLayoutProps) => {
         {children}
       </main>
       <Footer />
+      <Chat />
     </div>
   );
 };

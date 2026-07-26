@@ -1,0 +1,67 @@
+/* src/chatbot/Chatbot.css */
+
+/* Botão Flutuante (Ícone de Chat) */
+.react-chatbot-kit-chat-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.react-chatbot-kit-chat-btn {
+  background-color: #c1188b; /* Seu tom de rosa principal */
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.react-chatbot-kit-chat-btn-icon {
+  width: 25px;
+  height: 25px;
+  fill: white;
+}
+
+/* Cabeçalho do Chat */
+.react-chatbot-kit-chat-header {
+  background-color: #c1188b; /* Seu tom de rosa principal */
+  border-radius: 15px 15px 0 0;
+}
+
+/* Balões de Mensagem */
+.react-chatbot-kit-user-chat-message-container {
+  justify-content: flex-end;
+}
+
+.react-chatbot-kit-user-chat-message {
+  background-color: #f0f0f0; /* Cor neutra para o usuário */
+  color: #333;
+  border-radius: 10px 10px 0 10px;
+}
+
+.react-chatbot-kit-chat-bot-message-container {
+  justify-content: flex-start;
+}
+
+.react-chatbot-kit-chat-bot-message {
+  background-color: #c1188b; /* Seu tom de rosa principal */
+  color: white;
+  border-radius: 10px 10px 10px 0;
+}
+
+/* Campo de Entrada */
+.react-chatbot-kit-chat-input-container textarea {
+  border-radius: 0 0 15px 15px;
+  padding: 10px;
+}
+
+.react-chatbot-kit-chat-input-send-button {
+  background-color: #c1188b; /* Seu tom de rosa principal */
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  margin-left: 10px;
+}
