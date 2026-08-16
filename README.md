@@ -1,59 +1,105 @@
-Oásis Beauty
+Oásis Beauty 🌸✨
 
-Este é o projeto Oásis Beauty, uma plataforma de e-commerce e agendamento desenvolvida para facilitar a gestão de serviços e produtos do salão de beleza.
+> Um refúgio digital de estética, bem-estar e cuidado personalizado, desenvolvido com foco total em experiência de usuário (UX/UI), arquitetura limpa de componentes e alta performance no front-end.
 
-Principais funcionalidades
+Sobre o Projeto
 
-1- Catálogo de serviços interativo - listagem de tratamentos (visagismo, hidratação...)
-2- Sistema de carrinho - gestão de itens selecionados pelo usuário em tempo real.
-3- Fluxo de agendamento - Interface dedicada a marcação de horários integrada com o whatsapp.
-4- Chatbot de IA integrado - um widget vonversacional que tira duvidas e da informações para o cliente.
-5- Desdign System Personalizado - Identidade visual sofisticada com paleta de cores rosa.
+O **Oásis Beauty** nasceu com a proposta de ir além de um site institucional comum: é uma plataforma web completa voltada para o mercado de estética de alto padrão. O sistema une um design editorial sofisticado a funcionalidades robustas de e-commerce e agendamento conversacional, permitindo que os clientes naveguem por tratamentos exclusivos, gerenciem um carrinho de serviços interativo e concluam seus pedidos ou reservas de forma fluida via WhatsApp.
+
+Desenvolvido com uma stack moderna de mercado, o projeto prioriza componentização modular, tipagem estática rigorosa e responsividade adaptativa para proporcionar uma navegação impecável em qualquer dispositivo.
 
 
-Tecnologias Utilizadas
+Tecnologias e Arquitetura
 
-* React: Biblioteca principal para a interface do usuário.
-* Vite: Ferramenta de build extremamente rápida.
-* TypeScript: Adiciona tipagem estática ao JavaScript para maior segurança.
-* Tailwind CSS: Framework para estilização moderna e responsiva.
-* React Router Dom: Gerenciamento de rotas e navegação entre páginas.
-* Lucide React: Biblioteca de ícones intuitiva.
+O projeto foi estruturado utilizando as melhores práticas do ecossistema React atual:
 
-Como rodar o projeto localmente?
+* Core: React + TypeScript (para robustez, escalabilidade e manutenibilidade do código).
+* Build & Bundler: Vite (garantindo carregamento ultrarrápido e Hot Module Replacement eficiente).
+* Estilização: Tailwind CSS (utilizado para criar um design system personalizado, paleta de cores acolhedora e layouts responsivos).
+* Roteamento: React Router DOM (navegação estruturada entre as páginas de Home, Serviços, Agendamento e Carrinho).
+* Gerenciamento de Estado & Persistência: React Context API combinada com `localStorage` para manter os dados do carrinho salvos mesmo após fechar o navegador.
+* Inteligência Conversacional: React Chatbot Kit customizado com *ActionProvider* e *MessageParser* para simular um assistente virtual humanizado e eficiente.
+* Ícones: Lucide React (iconografia minimalista e elegante).
 
-Para executar este projeto em sua máquina, siga os passos abaixo:
-1. Pré-requisitos: Certifique-se de ter o Node.js instalado em seu computador.
-2. Clone o repositório:
-git clone [https://github.com/Amanda-Correa2003/Oasis-Beauty.git](https://github.com/Amanda-Correa2003/Oasis-Beauty.git)
-3. Entre na pasta do projeto:
-cd Oasis-Beauty
-4. Instale as dependências:
-npm install
-5. Inicie o servidor de desenvolvimento:
-npm run dev
-6. Acesse no navegador: O terminal exibirá um link (geralmente http://localhost:5173). Segure Ctrl e clique no link para visualizar o projeto.
+
+Principais Funcionalidades e Diferenciais Técnicos
+
+* Catálogo Interativo de Serviços: Exibição dinâmica de procedimentos de visagismo, estética avançada e cuidados pessoais, com cartões refinados e integração direta com o fluxo de compra.
+* Carrinho Inteligente com Context API:
+* Controle em tempo real de quantidade de serviços, cálculo automático de sub-totais e valor total.
+* Persistência de dados no armazenamento local (`localStorage`), garantindo que o usuário não perca sua seleção ao atualizar ou fechar a página.
+* Geração automatizada de mensagens formatadas para fechamento direto do pedido/orçamento via WhatsApp.
+
+
+* Fluxo de Agendamento Personalizado: Página dedicada à captação de reservas com validação de campos, focada em transmitir a exclusividade de um atendimento sob medida.
+* Assistente Virtual Integrado (Chatbot):
+* Um widget flutuante inteligente configurado para responder dúvidas frequentes sobre horários de funcionamento, tabela de preços, formas de contato e links rápidos para agendamento.
+* Estilização customizada alinhada à identidade visual do projeto e comportamento fluído.
+
+
+* Design System & Layout Responsivo:
+* Paleta de cores cuidadosamente selecionada (tons terrosos, rosados suaves e tipografia com fontes serifadas e limpas).
+* Menu mobile adaptativo, cabeçalho fixo com efeito glassmorphism e rodapé completo com links institucionais e horários de atendimento.
+
+
 
 Estrutura do Projeto
 
-* src/: Contém todo o código-fonte da aplicação.
-* components/: Componentes reutilizáveis (Navbar, cards, etc).
-* context/: Gerenciamento de estado global (ex: Carrinho de compras).
+```text
+src/
+├── assets/          # Imagens e recursos visuais
+├── chatbot/         # Configurações, parser e provedor do assistente virtual
+├── components/      # Componentes reutilizáveis (Navbar, Footer, etc.)
+├── context/         # Contextos globais (CartContext para gestão do carrinho)
+├── pages/           # Páginas principais (Home, ServicesPage, CartPage, SchedulingPage)
+├── types/           # Definições de tipos TypeScript (Interfaces globais)
+├── App.tsx          # Configuração de rotas principais
+└── main.tsx         # Ponto de entrada da aplicação
 
-  
-Imagens
+```
 
-<img width="2048" height="2294" alt="localhost_5173_(Nest Hub) (3)" src="https://github.com/user-attachments/assets/d73aef1d-cda4-49d0-9630-dfa9caaad48f" />
+---
+
+Como Executar o Projeto Localmente???
+
+Certifique-se de ter o Node.js instalado em sua máquina. Siga os passos abaixo no seu terminal:
+
+```bash
+# 1. Clone o repositório
+git clone https://github.com/seu-usuario/oasis-beauty.git
+
+# 2. Entre na pasta do projeto
+cd oasis-beauty
+
+# 3. Instale as dependências
+npm install
+
+# 4. Inicie o servidor de desenvolvimento
+npm run dev
+```
+Imagens:
+desktop e mobile
+
+<img width="2560" height="5662" alt="localhost_5173_(Nest Hub Max) (23)" src="https://github.com/user-attachments/assets/cd55018b-2ee8-4a30-a2c6-1ecf9f52a20e" />
+
+<img width="2560" height="5662" alt="localhost_5173_(Nest Hub Max) (24)" src="https://github.com/user-attachments/assets/1adddeaf-c363-4188-b070-b259ae5cefd1" />
 
 
-<img width="2048" height="2294" alt="localhost_5173_(Nest Hub) (7)" src="https://github.com/user-attachments/assets/ef09867c-5457-47eb-93ef-958df226a3d1" />
+<img width="2560" height="4806" alt="localhost_5173_servicos(Nest Hub Max)" src="https://github.com/user-attachments/assets/6f0cd320-c08f-47e0-a2f5-0091638d1466" />
+
+<img width="2560" height="2564" alt="localhost_5173_agendamento(Nest Hub Max)" src="https://github.com/user-attachments/assets/07523c2c-1802-465b-a167-6675de26a8e3" />
+
+<img width="2560" height="2462" alt="localhost_5173_carrinho(Nest Hub Max) (2)" src="https://github.com/user-attachments/assets/ec6b31a5-f689-4c1b-bade-831daff93108" />
+
+<img width="750" height="8512" alt="localhost_5173_(iPhone SE) (5)" src="https://github.com/user-attachments/assets/816a59ea-4599-46e4-8264-221dba384708" />
+
+<img width="750" height="11642" alt="localhost_5173_(iPhone SE) (6)" src="https://github.com/user-attachments/assets/b35410de-f594-4f6d-913e-c2946b8e1556" />
+
+<img width="750" height="4852" alt="localhost_5173_(iPhone SE) (7)" src="https://github.com/user-attachments/assets/2f7eb16f-3651-4fd6-afdf-f6980b63ba6d" />
+
+<img width="750" height="3410" alt="localhost_5173_(iPhone SE) (8)" src="https://github.com/user-attachments/assets/c4292628-84aa-4010-8c78-2acb9a4e5a28" />
 
 
-<img width="2730" height="3570" alt="localhost_5173_(Nest Hub) (4)" src="https://github.com/user-attachments/assets/591aa5ea-9c4d-4da1-aa38-e5927e30e243" />
-
-<img width="2048" height="1398" alt="localhost_5173_agendamento(Nest Hub)" src="https://github.com/user-attachments/assets/efb2112f-1ffb-4a8c-93e9-701a78fb8c01" />
-
-<img width="2048" height="1326" alt="localhost_5173_carrinho(Nest Hub)" src="https://github.com/user-attachments/assets/2208b8c6-15c7-48e1-b2bc-873cd7962748" />
 
 
 
