@@ -1,4 +1,3 @@
-// src/chatbot/MessageParser.js
 class MessageParser {
   constructor(actionProvider, state) {
     this.actionProvider = actionProvider;
@@ -6,25 +5,19 @@ class MessageParser {
   }
 
   parse(message) {
-    const lowerCaseMessage = message.toLowerCase();
+    const query = message.toLowerCase();
 
-    // Lógica de palavras-chave simples (para a entrevista, mostre que isso pode ser substituído por IA)
-    if (lowerCaseMessage.includes('agendar') || lowerCaseMessage.includes('marcar')) {
+    if (query.includes('agendar') || query.includes('marcar') || query.includes('agendamento')) {
       this.actionProvider.handleAgendamentoList();
-    }
-    else if (lowerCaseMessage.includes('serviço') || lowerCaseMessage.includes('corte') || lowerCaseMessage.includes('unha')) {
+    } else if (query.includes('serviço') || query.includes('corte') || query.includes('unha') || query.includes('tratamento')) {
       this.actionProvider.handleServicosList();
-    }
-    else if (lowerCaseMessage.includes('preço') || lowerCaseMessage.includes('valor') || lowerCaseMessage.includes('custa')) {
+    } else if (query.includes('preço') || query.includes('valor') || query.includes('custa') || query.includes('quanto')) {
       this.actionProvider.handlePrecosInfo();
-    }
-    else if (lowerCaseMessage.includes('horário') || lowerCaseMessage.includes('abre')) {
+    } else if (query.includes('horário') || query.includes('abre') || query.includes('funcionamento')) {
       this.actionProvider.handleHorarioInfo();
-    }
-    else if (lowerCaseMessage.includes('contato') || lowerCaseMessage.includes('telefone')) {
-        this.actionProvider.handleContatoInfo();
-      }
-    else {
+    } else if (query.includes('contato') || query.includes('telefone') || query.includes('email')) {
+      this.actionProvider.handleContatoInfo();
+    } else {
       this.actionProvider.handleDefault();
     }
   }
