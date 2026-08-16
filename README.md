@@ -91,11 +91,15 @@ desktop e mobile
 
 <img width="2560" height="2462" alt="localhost_5173_carrinho(Nest Hub Max) (2)" src="https://github.com/user-attachments/assets/ec6b31a5-f689-4c1b-bade-831daff93108" />
 
+
 <img width="750" height="8512" alt="localhost_5173_(iPhone SE) (5)" src="https://github.com/user-attachments/assets/816a59ea-4599-46e4-8264-221dba384708" />
+
 
 <img width="750" height="11642" alt="localhost_5173_(iPhone SE) (6)" src="https://github.com/user-attachments/assets/b35410de-f594-4f6d-913e-c2946b8e1556" />
 
+
 <img width="750" height="4852" alt="localhost_5173_(iPhone SE) (7)" src="https://github.com/user-attachments/assets/2f7eb16f-3651-4fd6-afdf-f6980b63ba6d" />
+
 
 <img width="750" height="3410" alt="localhost_5173_(iPhone SE) (8)" src="https://github.com/user-attachments/assets/c4292628-84aa-4010-8c78-2acb9a4e5a28" />
 
