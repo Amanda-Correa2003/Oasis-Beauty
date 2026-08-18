@@ -12,7 +12,7 @@ O sistema foi estruturado utilizando tecnologias modernas do ecossistema de dese
 * Roteamento: React Router DOM, responsável pela navegação estruturada entre as páginas principais.
 * Gerenciamento de Estado: React Context API combinada com `localStorage` para a persistência dos dados do carrinho.
 * Inteligência Conversacional: React Chatbot Kit, implementado para simular um assistente virtual voltado ao suporte de dúvidas frequentes.
-* Auxílio de Desenvolvimento: Contou com o apoio pontual do Google Gemini para o refino de determinados trechos de código e ajustes visuais.
+* Auxílio de Desenvolvimento: Contei com o apoio pontual do Google Gemini para o refino de determinados trechos de código e ajustes visuais.
 
 Principais Funcionalidades
 
