@@ -1,82 +1,63 @@
-Oásis Beauty 🌸✨
+Oásis Beauty 
 
-> Um refúgio digital de estética, bem-estar e cuidado personalizado, desenvolvido com foco total em experiência de usuário (UX/UI), arquitetura limpa de componentes e alta performance no front-end.
-
-Sobre o Projeto
-
-O **Oásis Beauty** nasceu com a proposta de ir além de um site institucional comum: é uma plataforma web completa voltada para o mercado de estética de alto padrão. O sistema une um design editorial sofisticado a funcionalidades robustas de e-commerce e agendamento conversacional, permitindo que os clientes naveguem por tratamentos exclusivos, gerenciem um carrinho de serviços interativo e concluam seus pedidos ou reservas de forma fluida via WhatsApp.
-
-Desenvolvido com uma stack moderna de mercado, o projeto prioriza componentização modular, tipagem estática rigorosa e responsividade adaptativa para proporcionar uma navegação impecável em qualquer dispositivo.
-
+O Oásis Beauty é uma plataforma web desenvolvida para o mercado de estética de alto padrão, concebida para ir além de um site institucional convencional. O projeto integra um design editorial sofisticado a funcionalidades práticas de e-commerce e agendamento conversacional, permitindo que os usuários naveguem por tratamentos exclusivos, gerenciem um carrinho interativo de serviços e finalizem reservas de forma fluida via WhatsApp.
 
 Tecnologias e Arquitetura
 
-O projeto foi estruturado utilizando as melhores práticas do ecossistema React atual:
+O sistema foi estruturado utilizando tecnologias modernas do ecossistema de desenvolvimento front-end:
 
-* Core: React + TypeScript (para robustez, escalabilidade e manutenibilidade do código).
-* Build & Bundler: Vite (garantindo carregamento ultrarrápido e Hot Module Replacement eficiente).
-* Estilização: Tailwind CSS (utilizado para criar um design system personalizado, paleta de cores acolhedora e layouts responsivos).
-* Roteamento: React Router DOM (navegação estruturada entre as páginas de Home, Serviços, Agendamento e Carrinho).
-* Gerenciamento de Estado & Persistência: React Context API combinada com `localStorage` para manter os dados do carrinho salvos mesmo após fechar o navegador.
-* Inteligência Conversacional: React Chatbot Kit customizado com *ActionProvider* e *MessageParser* para simular um assistente virtual humanizado e eficiente.
-* Ícones: Lucide React (iconografia minimalista e elegante).
+* Core: React e TypeScript, garantindo robustez, tipagem estática e escalabilidade.
+* Build: Vite, proporcionando um ambiente de desenvolvimento ágil e carregamento otimizado.
+* Estilização: Tailwind CSS, utilizado na construção de um design system responsivo e personalizado.
+* Roteamento: React Router DOM, responsável pela navegação estruturada entre as páginas principais.
+* Gerenciamento de Estado: React Context API combinada com `localStorage` para a persistência dos dados do carrinho.
+* Inteligência Conversacional: React Chatbot Kit, implementado para simular um assistente virtual voltado ao suporte de dúvidas frequentes.
+* Auxílio de Desenvolvimento: Contou com o apoio pontual do Google Gemini para o refino de determinados trechos de código e ajustes visuais.
 
+Principais Funcionalidades
 
-Principais Funcionalidades e Diferenciais Técnicos
+* Catálogo de Serviços: Exibição dinâmica de procedimentos de visagismo e estética avançada por meio de componentes visuais refinados.
+* Carrinho Inteligente: Cálculo automatizado de subtotais e totais, com persistência de dados e geração de mensagens formatadas para contato direto via WhatsApp.
+* Fluxo de Agendamento: Interface dedicada à captação de reservas com validação de campos.
+* Assistente Virtual: Widget flutuante integrado para atendimento automatizado de informações básicas.
+* Design Responsivo: Layout adaptado para diferentes dispositivos, contando com navegação móvel fluida e efeitos visuais como *glassmorphism*.
 
-* Catálogo Interativo de Serviços: Exibição dinâmica de procedimentos de visagismo, estética avançada e cuidados pessoais, com cartões refinados e integração direta com o fluxo de compra.
-* Carrinho Inteligente com Context API:
-* Controle em tempo real de quantidade de serviços, cálculo automático de sub-totais e valor total.
-* Persistência de dados no armazenamento local (`localStorage`), garantindo que o usuário não perca sua seleção ao atualizar ou fechar a página.
-* Geração automatizada de mensagens formatadas para fechamento direto do pedido/orçamento via WhatsApp.
-
-
-* Fluxo de Agendamento Personalizado: Página dedicada à captação de reservas com validação de campos, focada em transmitir a exclusividade de um atendimento sob medida.
-* Assistente Virtual Integrado (Chatbot):
-* Um widget flutuante inteligente configurado para responder dúvidas frequentes sobre horários de funcionamento, tabela de preços, formas de contato e links rápidos para agendamento.
-* Estilização customizada alinhada à identidade visual do projeto e comportamento fluído.
-
-
-* Design System & Layout Responsivo:
-* Paleta de cores cuidadosamente selecionada (tons terrosos, rosados suaves e tipografia com fontes serifadas e limpas).
-* Menu mobile adaptativo, cabeçalho fixo com efeito glassmorphism e rodapé completo com links institucionais e horários de atendimento.
-
-
-
-Estrutura do Projeto
+Estrutura do Repositório
 
 ```text
 src/
-├── assets/          # Imagens e recursos visuais
-├── chatbot/         # Configurações, parser e provedor do assistente virtual
-├── components/      # Componentes reutilizáveis (Navbar, Footer, etc.)
-├── context/         # Contextos globais (CartContext para gestão do carrinho)
-├── pages/           # Páginas principais (Home, ServicesPage, CartPage, SchedulingPage)
-├── types/           # Definições de tipos TypeScript (Interfaces globais)
-├── App.tsx          # Configuração de rotas principais
-└── main.tsx         # Ponto de entrada da aplicação
+├── assets/         # Recursos visuais e mídias
+├── chatbot/        # Configurações e lógica do assistente virtual
+├── components/     # Componentes reutilizáveis (Navbar, Footer, etc.)
+├── context/        # Gerenciamento de estado global (Carrinho)
+├── pages/          # Páginas da aplicação (Home, Serviços, Carrinho, Agendamento)
+├── types/          # Definições de interfaces e tipos do TypeScript
+├── App.tsx         # Configuração de rotas
+└── main.tsx        # Ponto de entrada da aplicação
 
 ```
 
 ---
 
-Como Executar o Projeto Localmente???
+Execução Local
 
-Certifique-se de ter o Node.js instalado em sua máquina. Siga os passos abaixo no seu terminal:
+Para executar o projeto em sua máquina local, certifique-se de possuir o Node.js instalado e execute os seguintes comandos no terminal:
 
 ```bash
-# 1. Clone o repositório
+# Clone o repositório
 git clone https://github.com/seu-usuario/oasis-beauty.git
 
-# 2. Entre na pasta do projeto
+# Acesse o diretório do projeto
 cd oasis-beauty
 
-# 3. Instale as dependências
+# Instale as dependências
 npm install
 
-# 4. Inicie o servidor de desenvolvimento
+# Inicie o servidor de desenvolvimento
 npm run dev
+
 ```
+
 Imagens:
 desktop e mobile
 
