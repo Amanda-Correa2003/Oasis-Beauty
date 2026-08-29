@@ -2,7 +2,7 @@ Oásis Beauty
 
 O Oásis Beauty é uma plataforma web desenvolvida para o mercado de estética de alto padrão, concebida para ir além de um site institucional convencional. O projeto integra um design editorial sofisticado a funcionalidades práticas de e-commerce e agendamento conversacional, permitindo que os usuários naveguem por tratamentos exclusivos, gerenciem um carrinho interativo de serviços e finalizem reservas de forma fluida via WhatsApp.
 
-link do projeto no vercel: https://oasis-beauty.vercel.app/
+demo: https://oasis-beauty.vercel.app/
 
 Tecnologias e Arquitetura
 
