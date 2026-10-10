@@ -14,7 +14,7 @@ export const CartPage = () => {
     });
     message += `\n*Total:* R$ ${total.toFixed(2)}`;
 
-    window.open(`https://wa.me/5511999999999?text=${encodeURIComponent(message)}`, '_blank');
+    window.open(`https://wa.me/5521964239143?text=${encodeURIComponent(message)}`, '_blank');
   };
 
   return (

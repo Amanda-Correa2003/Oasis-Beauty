@@ -6,7 +6,7 @@ export const SchedulingPage = () => {
 
   const handleSchedule = () => {
     const message = `Olá, meu nome é ${formData.name}. Gostaria de agendar ${formData.service} para o dia ${formData.date}. Meu telefone é ${formData.phone}.`;
-    window.open(`https://wa.me/5511999999999?text=${encodeURIComponent(message)}`, '_blank');
+    window.open(`https://wa.me/5521964239143?text=${encodeURIComponent(message)}`, '_blank');
   };
 
   return (
